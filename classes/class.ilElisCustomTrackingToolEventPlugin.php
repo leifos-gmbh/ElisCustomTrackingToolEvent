@@ -105,7 +105,6 @@ class ilElisCustomTrackingToolEventPlugin extends ilEventHookPlugin
 
 	private static function trackAccess($a_parameter)
 	{
-		var_dump($a_parameter);
 		$a_parameter['remote_addr'] = $_SERVER['REMOTE_ADDR'];
 
 		try
